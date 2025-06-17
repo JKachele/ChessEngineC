@@ -1,0 +1,111 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/glad.o",
+      "src/glad.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad",
+    "file": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad/src/glad.c",
+    "output": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad/src/glad.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
+      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
+    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/main.c",
+    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
+      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/gfx/render.o",
+      "src/gfx/render.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
+    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/render.c",
+    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/render.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
+      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/gfx/shader.o",
+      "src/gfx/shader.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
+    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/shader.c",
+    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/shader.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
+      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/gfx/window.o",
+      "src/gfx/window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
+    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/window.c",
+    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/window.o"
+  }
+]
