@@ -10,10 +10,12 @@
 
 #include "gfx/gfx.h"
 #include "gfx/render.h"
+#include "game/positions.h"
 
 struct state{
         struct Window *window;
         struct Renderer renderer;
+        struct Positions positions;
 };
 
 // Global State

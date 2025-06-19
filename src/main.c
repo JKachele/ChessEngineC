@@ -15,10 +15,11 @@ struct state state;
 void init(void) {
         state.window = &window;
         renderInit(&state.renderer);
+        positionsInit(&state.positions);
 }
 
 void render(void) {
-        renderUpdate(&state.renderer);
+        renderUpdate(&state.renderer, &state.positions);
 }
 
 void destroy(void) {

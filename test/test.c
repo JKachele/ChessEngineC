@@ -8,21 +8,17 @@
 
 #include "test.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-
-static const char *SHADER_PATH = "assets/shaders/";
-static const char *VERTEX_NAME = "Vert.glsl";
 
 int main(int argc, char *argv[]) {
         printf("Hello, World!\n");
 
-        const char *shaderName = "cell";
-
-        char vertexPath[40];
-        strncat(vertexPath, SHADER_PATH, sizeof(vertexPath) - 1);
-        strncat(vertexPath, shaderName, sizeof(vertexPath) - 1);
-        strncat(vertexPath, VERTEX_NAME, sizeof(vertexPath) - 1);
-        printf("%s", vertexPath);
+        for (int i = 0; i < 20; i++) {
+                float ranX = (float)rand() / (float)(RAND_MAX/0.75);
+                float ranY = (float)rand() / (float)(RAND_MAX/0.75);
+                printf("%f, %f\n", ranX, ranY);
+        }
 
         printf("\n");
         return 0;

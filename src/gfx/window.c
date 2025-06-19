@@ -88,6 +88,10 @@ void createWindow(WinFunc init, WinFunc render, WinFunc destroy) {
                 fprintf(stderr, "Failed to initalize GLAD\n");
                 exit(0);
         }
+
+        glEnable(GL_DEPTH_TEST);
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 }
 
 // Print FPS to console every 1/2 second
@@ -121,7 +125,7 @@ void windowLoop(void) {
 
                 // Clear Window
                 // glClearColor(0.314f, 0.0f, 0.0f, 1.0f);
-                glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+                glClearColor(0.0f, 0.0f, 0.15f, 1.0f);
                 glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
                 // Calculate Frame Times

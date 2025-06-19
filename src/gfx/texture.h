@@ -16,7 +16,7 @@ struct Texture{
         GLuint handle1;
 };
 
-void loadTexture(struct Texture *self, const char *path,
+void loadTexture(struct Texture *self, const char *name,
                 GLenum format, bool flip);
 
 #endif

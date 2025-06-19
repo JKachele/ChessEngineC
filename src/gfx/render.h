@@ -10,20 +10,20 @@
 
 #include "gfx.h"
 #include "shader.h"
-#include "texture.h"
 #include "camera.h"
-#include "../enttiy/cell.h"
+#include "../enttiy/board.h"
+#include "../enttiy/piece.h"
 
 struct Renderer {
-        struct Texture texture;
         struct Camera camera;
 
-        struct Shader cellShader;
-        struct Cell cells[64];
+        struct Board board;
+
+        struct Piece piece;
 };
 
 void renderInit(struct Renderer *self);
-void renderUpdate(struct Renderer *self);
+void renderUpdate(struct Renderer *self, struct Positions *positions);
 void renderDestroy(struct Renderer *self);
 
 #endif
