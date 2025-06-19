@@ -8,15 +8,23 @@
 
 #include "test.h"
 #include <stdio.h>
+#include <string.h>
+
+static const char *SHADER_PATH = "assets/shaders/";
+static const char *VERTEX_NAME = "Vert.glsl";
 
 int main(int argc, char *argv[]) {
-    printf("Hello, World!\n");
+        printf("Hello, World!\n");
 
-    struct test test;
-    test.arr[5] = 100;
-    test.arr2[5] = 200;
-    printf("%d, %d\n", test.arr[5], test.arr2[5]);
+        const char *shaderName = "cell";
 
-    return 0;
+        char vertexPath[40];
+        strncat(vertexPath, SHADER_PATH, sizeof(vertexPath) - 1);
+        strncat(vertexPath, shaderName, sizeof(vertexPath) - 1);
+        strncat(vertexPath, VERTEX_NAME, sizeof(vertexPath) - 1);
+        printf("%s", vertexPath);
+
+        printf("\n");
+        return 0;
 }
 

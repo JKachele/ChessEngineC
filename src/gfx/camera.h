@@ -9,22 +9,21 @@
 #define CAMERA_H
 
 #include "gfx.h"
+#include "window.h"
 
 struct Camera {
         vec3s pos;
         vec3s front;
         vec3s up;
 
-        float fov;
-
-        float pitch;
-        float yaw;
+        vec2s width;
+        vec2s height;
 
         mat4s (*getView)(struct Camera *self);
 };
 
 void cameraInit(struct Camera *self);
-void moveCamera(struct Camera *self, float deltaTime, bool *keysPressed);
+void cameraResize(struct Camera *self, ivec2s size);
 
 #endif
 

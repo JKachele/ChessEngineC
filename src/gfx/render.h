@@ -12,15 +12,14 @@
 #include "shader.h"
 #include "texture.h"
 #include "camera.h"
+#include "../enttiy/cell.h"
 
 struct Renderer {
-        struct Shader shader;
         struct Texture texture;
         struct Camera camera;
 
-        GLuint vao;
-        GLuint vbo;
-        GLuint ebo;
+        struct Shader cellShader;
+        struct Cell cells[64];
 };
 
 void renderInit(struct Renderer *self);

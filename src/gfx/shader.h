@@ -22,7 +22,7 @@ struct Shader {
         GLuint handle;
 };
 
-void shaderInit(struct Shader *self);
+void shaderInit(struct Shader *self, const char* shadername);
 void shaderUse(struct Shader *self);
 void shaderDestroy(struct Shader *self);
 

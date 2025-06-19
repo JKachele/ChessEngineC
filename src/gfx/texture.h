@@ -11,11 +11,13 @@
 #include "gfx.h"
 
 struct Texture{
+        GLuint handle;
         GLuint handle0;
         GLuint handle1;
 };
 
-void textureInit(struct Texture *self);
+void loadTexture(struct Texture *self, const char *path,
+                GLenum format, bool flip);
 
 #endif
 

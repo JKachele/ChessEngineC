@@ -7,9 +7,11 @@
  ************************************************/
 
 #include "shader.h"
+#include <string.h>
 
-static const char *VERTEX_PATH = "assets/shaders/vert.glsl";
-static const char *FRAGMENT_PATH = "assets/shaders/frag.glsl";
+static const char *SHADER_PATH = "assets/shaders/";
+static const char *VERTEX_NAME = "Vert.glsl";
+static const char *FRAGMENT_NAME = "Frag.glsl";
 
 static unsigned int _compile(const char *path, GLenum type) {
         FILE *f;
@@ -57,9 +59,17 @@ static unsigned int _compile(const char *path, GLenum type) {
         return shaderHandle;
 }
 
-void shaderInit(struct Shader *self) {
-        GLuint vertexShader = _compile(VERTEX_PATH, GL_VERTEX_SHADER);
-        GLuint fragmentShader = _compile(FRAGMENT_PATH, GL_FRAGMENT_SHADER);
+void shaderInit(struct Shader *self, const char* shadername) {
+        const int PathSize = 40;
+        char vertexPath[PathSize];
+        snprintf(vertexPath, PathSize, "%s%s%s",
+                        SHADER_PATH, shadername, VERTEX_NAME);
+        GLuint vertexShader = _compile(vertexPath, GL_VERTEX_SHADER);
+
+        char fragmentPath[PathSize];
+        snprintf(fragmentPath, PathSize, "%s%s%s",
+                        SHADER_PATH, shadername, FRAGMENT_NAME);
+        GLuint fragmentShader = _compile(fragmentPath, GL_FRAGMENT_SHADER);
 
         GLuint shader = glCreateProgram();
         glAttachShader(shader, vertexShader);

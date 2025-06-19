@@ -15,10 +15,10 @@
 static const char *T0_PATH = "assets/textures/container.jpg";
 static const char *T1_PATH = "assets/textures/awesomeface.png";
 
-static void loadTexture(GLuint *handle, const char *path,
+void loadTexture(struct Texture *self, const char *path,
                 GLenum format, bool flip) {
-        glGenTextures(1, handle);
-        glBindTexture(GL_TEXTURE_2D, *handle);
+        glGenTextures(1, &self->handle);
+        glBindTexture(GL_TEXTURE_2D, self->handle);
         
         // Set texture wrapping/filtering options on bound texture
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
@@ -40,10 +40,5 @@ static void loadTexture(GLuint *handle, const char *path,
                 printf("Failed to load texture!\n");
         }
         stbi_image_free(data);
-}
-
-void textureInit(struct Texture *self) {
-        loadTexture(&self->handle0, T0_PATH, GL_RGB, false);
-        loadTexture(&self->handle1, T1_PATH, GL_RGBA, true);
 }
 

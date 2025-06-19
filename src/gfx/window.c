@@ -15,7 +15,9 @@
 struct Window window;
 
 static void _sizeCallback(GLFWwindow *windowHandle, int width, int height) {
+        window.size = (ivec2s){{width, height}};
         glViewport(0, 0, width, height);
+        cameraResize(&state.renderer.camera, window.size);
 }
 
 static void _mouseCallback(GLFWwindow *windowHandle, double xPos, double yPos) {
@@ -35,31 +37,6 @@ static void _mouseCallback(GLFWwindow *windowHandle, double xPos, double yPos) {
         float yOffset = (lastY - yPos) * sensitivity;
         lastX = xPos;
         lastY = yPos;
-
-        cam->yaw += xOffset;
-        cam->pitch += yOffset;
-        if (cam->pitch > 89.0f)
-                cam->pitch = 89.0f;
-        if (cam->pitch < -89.0f)
-                cam->pitch = -89.0f;
-
-        // printf("Pitch: %f\nYaw: %f\n\n", cam->pitch, cam->yaw);
-
-        vec3s direction;
-        direction.x = cos(glm_rad(cam->yaw)) * cos(glm_rad(cam->pitch));
-        direction.y = sin(glm_rad(cam->pitch));
-        direction.z = sin(glm_rad(cam->yaw)) * cos(glm_rad(cam->pitch));
-        cam->front = glms_normalize(direction);
-}
-
-static void _scrollCallback(GLFWwindow *windowHandle,
-                double xOffset, double yOffset) {
-        struct Camera *cam = &state.renderer.camera;
-        cam->fov -= (float)yOffset;
-        if (cam->fov < 1.0f)
-                cam->fov = 1.0f;
-        if (cam->fov > 45.0f)
-                cam->fov = 45.0f;
 }
 
 static void _keyCallback(GLFWwindow *windowHandle, int key,
@@ -90,9 +67,9 @@ void createWindow(WinFunc init, WinFunc render, WinFunc destroy) {
         glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
         glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
         glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-        glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+        // glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 
-        window.size = (ivec2s){{800, 600}};
+        window.size = (ivec2s){{1000, 1000}};
         window.handle = glfwCreateWindow(window.size.x, window.size.y,
                         "Chess Engine", NULL, NULL);
         if (window.handle == NULL) {
@@ -103,7 +80,6 @@ void createWindow(WinFunc init, WinFunc render, WinFunc destroy) {
         glfwMakeContextCurrent(window.handle);
         glfwSetFramebufferSizeCallback(window.handle, _sizeCallback);
         glfwSetCursorPosCallback(window.handle, _mouseCallback);
-        glfwSetScrollCallback(window.handle, _scrollCallback);
         glfwSetKeyCallback(window.handle, _keyCallback);
 
         glfwSetInputMode(window.handle, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
@@ -144,7 +120,8 @@ void windowLoop(void) {
                 // processInput(window.handle);
 
                 // Clear Window
-                glClearColor(0.314f, 0.0f, 0.0f, 1.0f);
+                // glClearColor(0.314f, 0.0f, 0.0f, 1.0f);
+                glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
                 glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
                 // Calculate Frame Times
@@ -154,8 +131,6 @@ void windowLoop(void) {
                 _printFPS();
 
                 // Rendering happens here
-                moveCamera(&state.renderer.camera, window.deltaTime,
-                                window.keysPressed);
                 window.render();
 
                 // Check and call events and swap buffers

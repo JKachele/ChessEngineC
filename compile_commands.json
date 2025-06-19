@@ -1,6 +1,2106 @@
 [
   {
     "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "CMakeCCompilerId.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/CMakeFiles/3.31.5/CompilerIdC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/CMakeFiles/3.31.5/CompilerIdC/CMakeCCompilerId.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-v",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_015f0.dir/CMakeCCompilerABI.c.o",
+      "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/CMakeFiles/CMakeScratch/TryCompile-KwsZTR",
+    "file": "/usr/share/cmake/Modules/CMakeCCompilerABI.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/CMakeFiles/CMakeScratch/TryCompile-KwsZTR/CMakeFiles/cmTC_015f0.dir/CMakeCCompilerABI.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/context.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/context.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/context.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/init.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/init.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/init.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/input.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/input.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/input.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/input.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/monitor.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/monitor.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/monitor.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/platform.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/platform.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/platform.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/vulkan.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/vulkan.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/vulkan.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/window.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/egl_context.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/egl_context.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/egl_context.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/osmesa_context.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/osmesa_context.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/osmesa_context.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_init.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_init.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_init.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_monitor.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_monitor.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_monitor.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_window.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/null_joystick.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_joystick.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/null_joystick.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_module.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_module.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_module.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_time.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_time.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_time.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_thread.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_thread.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_thread.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_init.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_init.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_init.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_monitor.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_monitor.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_monitor.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/x11_window.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/x11_window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/xkb_unicode.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/xkb_unicode.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/xkb_unicode.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/glx_context.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/glx_context.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/glx_context.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/wl_init.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_init.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_init.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/wl_monitor.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_monitor.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_monitor.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/wl_window.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/wl_window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/linux_joystick.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/linux_joystick.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/linux_joystick.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DHAVE_MEMFD_CREATE",
+      "-D_DEFAULT_SOURCE",
+      "-D_GLFW_WAYLAND",
+      "-D_GLFW_X11",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+      "-std=c99",
+      "-fPIC",
+      "-Wall",
+      "-c",
+      "-o",
+      "CMakeFiles/glfw.dir/posix_poll.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_poll.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/posix_poll.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/boing.dir/boing.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/boing.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/boing.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/boing.dir/boing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/gears.dir/gears.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/gears.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/gears.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/gears.dir/gears.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/heightmap.dir/heightmap.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/heightmap.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/heightmap.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/offscreen.dir/offscreen.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/offscreen.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/offscreen.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/particles.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/particles.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/particles.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/particles.dir/particles.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/__/deps/tinycthread.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/particles.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/sharing.dir/sharing.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/sharing.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/sharing.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/sharing.dir/sharing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/splitview.dir/splitview.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/splitview.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/splitview.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/splitview.dir/splitview.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-opengl.dir/triangle-opengl.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/triangle-opengl.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/triangle-opengl.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/triangle-opengl.dir/triangle-opengl.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-opengles.dir/triangle-opengles.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/triangle-opengles.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/triangle-opengles.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/triangle-opengles.dir/triangle-opengles.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/wave.dir/wave.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/wave.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/wave.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/wave.dir/wave.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/windows.dir/windows.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/windows.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/windows.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/examples/CMakeFiles/windows.dir/windows.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/allocator.dir/allocator.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/allocator.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/allocator.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/allocator.dir/allocator.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/clipboard.dir/clipboard.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/clipboard.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/clipboard.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/clipboard.dir/clipboard.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/clipboard.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/events.dir/events.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/events.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/events.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/events.dir/events.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/events.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/events.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/msaa.dir/msaa.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/msaa.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/msaa.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/msaa.dir/msaa.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/msaa.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfwinfo.dir/glfwinfo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/glfwinfo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/glfwinfo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/iconify.dir/iconify.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/iconify.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/iconify.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/iconify.dir/iconify.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/iconify.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/monitors.dir/monitors.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/monitors.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/monitors.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/monitors.dir/monitors.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/monitors.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/reopen.dir/reopen.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/reopen.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/reopen.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/reopen.dir/reopen.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/cursor.dir/cursor.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/cursor.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/cursor.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/cursor.dir/cursor.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/empty.dir/empty.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/empty.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/empty.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/empty.dir/empty.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/empty.dir/__/deps/tinycthread.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/gamma.dir/gamma.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/gamma.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/gamma.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/gamma.dir/gamma.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/icon.dir/icon.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/icon.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/icon.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/icon.dir/icon.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/inputlag.dir/inputlag.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/inputlag.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/inputlag.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/inputlag.dir/inputlag.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/inputlag.dir/__/deps/getopt.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/getopt.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/joysticks.dir/joysticks.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/joysticks.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/joysticks.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/tearing.dir/tearing.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/tearing.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/tearing.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/tearing.dir/tearing.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/threads.dir/threads.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/threads.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/threads.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/threads.dir/threads.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/threads.dir/__/deps/tinycthread.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps/tinycthread.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/timeout.dir/timeout.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/timeout.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/timeout.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/timeout.dir/timeout.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/title.dir/title.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/title.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/title.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/title.dir/title.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/triangle-vulkan.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/triangle-vulkan.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/deps",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/include",
+      "-std=gnu99",
+      "-c",
+      "-o",
+      "CMakeFiles/window.dir/window.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/window.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glfw/tests/CMakeFiles/window.dir/window.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "CMakeCCompilerId.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/3.31.5/CompilerIdC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/3.31.5/CompilerIdC/CMakeCCompilerId.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-v",
+      "-c",
+      "-o",
+      "CMakeFiles/cmTC_a7cc4.dir/CMakeCCompilerABI.c.o",
+      "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/CMakeScratch/TryCompile-MYvay8",
+    "file": "/usr/share/cmake/Modules/CMakeCCompilerABI.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/CMakeScratch/TryCompile-MYvay8/CMakeFiles/cmTC_a7cc4.dir/CMakeCCompilerABI.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/euler.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/euler.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/euler.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/euler.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/affine.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/affine.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/affine.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/affine.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/io.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/io.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/io.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/io.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/quat.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/quat.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/quat.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/quat.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/cam.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/cam.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/cam.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/cam.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/vec2.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec2.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec2.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/vec2.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/ivec2.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec2.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec2.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/ivec2.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/vec3.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec3.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec3.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/vec3.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/ivec3.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec3.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec3.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/ivec3.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/vec4.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec4.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/vec4.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/vec4.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/ivec4.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec4.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ivec4.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/ivec4.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat2.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat2.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat2x3.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2x3.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2x3.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat2x3.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat2x4.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2x4.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat2x4.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat2x4.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat3.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat3.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat3x2.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3x2.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3x2.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat3x2.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat3x4.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3x4.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat3x4.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat3x4.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat4.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat4.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat4x2.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4x2.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4x2.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat4x2.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/mat4x3.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4x3.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/mat4x3.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/mat4x3.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/plane.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/plane.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/plane.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/plane.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/frustum.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/frustum.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/frustum.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/frustum.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/box.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/box.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/box.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/box.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/project.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/project.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/project.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/project.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/sphere.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/sphere.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/sphere.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/sphere.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/ease.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ease.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ease.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/ease.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/curve.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/curve.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/curve.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/curve.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/bezier.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/bezier.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/bezier.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/bezier.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/ray.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ray.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/ray.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/ray.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/affine2d.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/affine2d.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/affine2d.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/affine2d.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_lh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_lh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_lh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_lh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_rh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_rh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_rh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/ortho_rh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_lh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_lh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_lh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_lh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_rh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_rh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_rh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/persp_rh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_lh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_lh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_lh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_lh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_rh_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_rh_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_rh_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/view_rh_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/project_no.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/project_no.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/project_no.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/project_no.c.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-DCGLM_EXPORTS",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/include",
+      "-I/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src",
+      "-O3",
+      "-DNDEBUG",
+      "-std=gnu11",
+      "-Wall",
+      "-O3",
+      "-c",
+      "-o",
+      "CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o",
+      "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/project_zo.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/src/clipspace/project_zo.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/cglm/CMakeFiles/cglm.dir/src/clipspace/project_zo.c.o"
+  },
+  {
+    "arguments": [
       "/usr/bin/gcc",
       "-Iinclude",
       "-c",
@@ -8,16 +2108,15 @@
       "src/glad.o",
       "src/glad.c"
     ],
-    "directory": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad",
-    "file": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad/src/glad.c",
-    "output": "/home/jkachele/Programming/CProjects/GameEngineC/lib/glad/src/glad.o"
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glad",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glad/src/glad.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/lib/glad/src/glad.o"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
       "-c",
       "-std=c11",
-      "-O3",
       "-g",
       "-Wall",
       "-Wextra",
@@ -32,16 +2131,38 @@
       "src/main.o",
       "src/main.c"
     ],
-    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
-    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/main.c",
-    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/main.o"
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/main.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/main.o"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
       "-c",
       "-std=c11",
-      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/gfx/camera.o",
+      "src/gfx/camera.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/camera.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/camera.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
       "-g",
       "-Wall",
       "-Wextra",
@@ -56,16 +2177,15 @@
       "src/gfx/render.o",
       "src/gfx/render.c"
     ],
-    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
-    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/render.c",
-    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/render.o"
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/render.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/render.o"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
       "-c",
       "-std=c11",
-      "-O3",
       "-g",
       "-Wall",
       "-Wextra",
@@ -80,16 +2200,38 @@
       "src/gfx/shader.o",
       "src/gfx/shader.c"
     ],
-    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
-    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/shader.c",
-    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/shader.o"
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/shader.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/shader.o"
   },
   {
     "arguments": [
       "/usr/bin/gcc",
       "-c",
       "-std=c11",
-      "-O3",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wno-unused-parameter",
+      "-Wno-unused-variable",
+      "-Ilib/cglm/include",
+      "-Ilib/glad/include",
+      "-Ilib/glfw/include",
+      "-Ilib/stb",
+      "-o",
+      "src/gfx/texture.o",
+      "src/gfx/texture.c"
+    ],
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/texture.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/texture.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-std=c11",
       "-g",
       "-Wall",
       "-Wextra",
@@ -104,8 +2246,8 @@
       "src/gfx/window.o",
       "src/gfx/window.c"
     ],
-    "directory": "/home/jkachele/Programming/CProjects/GameEngineC",
-    "file": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/window.c",
-    "output": "/home/jkachele/Programming/CProjects/GameEngineC/src/gfx/window.o"
+    "directory": "/home/jkachele/Programming/CProjects/ChessEngineC",
+    "file": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/window.c",
+    "output": "/home/jkachele/Programming/CProjects/ChessEngineC/src/gfx/window.o"
   }
 ]

@@ -9,58 +9,39 @@
 #include "camera.h"
 #include "cglm/struct/vec3.h"
 
+const float BOARD_SIZE = 64.0f;
+const float MARGIN = 8.0f;
+
 static mat4s getViewMatrix(struct Camera *self) {
         vec3s target = vec3_add(self->pos, self->front);
         return glms_lookat(self->pos, target, self->up);
 }
 
 void cameraInit(struct Camera *self) {
-        self->pos = (vec3s){{0.0f, 0.0f, -3.0f}};
+        self->pos = (vec3s){{0.0f, 0.0f, 3.0f}};
         self->front = (vec3s){{0.0f, 0.0f, -1.0f}};
         self->up = (vec3s){{0.0f, 1.0f, 0.0f}};
 
-        self->fov = 45.0f;
-
-        self->pitch = 0.0f;
-        self->yaw = -90.0f;
+        self->width = (vec2s){{-16.0, 80.0}};
+        self->height = (vec2s){{-16.0, 80.0}};
 
         self->getView = getViewMatrix;
 }
 
-void moveCamera(struct Camera *self, float deltaTime, bool *keysPressed) {
-        const float cameraSpeed = 2.5f * deltaTime;
-
-        if (keysPressed[GLFW_KEY_W]) {
-                vec3s newPos = vec3_add(self->pos,
-                                vec3_scale(self->front, cameraSpeed));
-                self->pos = newPos;
-        }
-        if (keysPressed[GLFW_KEY_S]) {
-                vec3s newPos = vec3_sub(self->pos,
-                                vec3_scale(self->front, cameraSpeed));
-                self->pos = newPos;
-        }
-        if (keysPressed[GLFW_KEY_A]) {
-                vec3s right = glms_normalize(glms_cross(self->front, self->up));
-                vec3s newPos = vec3_sub(self->pos,
-                                vec3_scale(right, cameraSpeed));
-                self->pos = newPos;
-        }
-        if (keysPressed[GLFW_KEY_D]) {
-                vec3s right = glms_normalize(glms_cross(self->front, self->up));
-                vec3s newPos = vec3_add(self->pos,
-                                vec3_scale(right, cameraSpeed));
-                self->pos = newPos;
-        }
-        if (keysPressed[GLFW_KEY_SPACE]) {
-                vec3s newPos = vec3_add(self->pos,
-                                (vec3s){{0.0f, cameraSpeed, 0.0f}});
-                self->pos = newPos;
-        }
-        if (keysPressed[GLFW_KEY_LEFT_SHIFT]) {
-                vec3s newPos = vec3_sub(self->pos,
-                                (vec3s){{0.0f, cameraSpeed, 0.0f}});
-                self->pos = newPos;
+void cameraResize(struct Camera *self, ivec2s size) {
+        float ratio = (float)size.x / size.y;
+        const float minSize = BOARD_SIZE + (2 * MARGIN);
+        
+        if (ratio > 1) {
+                self->height = (vec2s){{MARGIN * -1, BOARD_SIZE + MARGIN}};
+                float width = minSize * ratio;
+                float margin = (width - BOARD_SIZE) / 2;
+                self->width = (vec2s){{margin * -1, BOARD_SIZE + margin}};
+        } else {
+                self->width = (vec2s){{MARGIN * -1, BOARD_SIZE + MARGIN}};
+                float height = minSize / ratio;
+                float margin = (height - BOARD_SIZE) / 2;
+                self->height = (vec2s){{margin * -1, BOARD_SIZE + margin}};
         }
 }
 
