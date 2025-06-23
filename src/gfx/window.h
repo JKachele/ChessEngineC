@@ -20,11 +20,15 @@ struct Window {
         float deltaTime;
         float lastFrame;
 
+        // Mouse
+        vec2s mousePos;
+
         // Keys
         bool keysPressed[350];
         bool keysPressedOnce[350];
 
         WinFunc init;
+        WinFunc update;
         WinFunc render;
         WinFunc destroy;
 };
@@ -32,7 +36,8 @@ struct Window {
 // Global Window
 extern struct Window window;
 
-void createWindow(WinFunc init, WinFunc render, WinFunc destroy);
+void createWindow(WinFunc init, WinFunc update,
+                WinFunc render, WinFunc destroy);
 void windowLoop(void);
 
 #endif

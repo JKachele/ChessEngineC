@@ -6,6 +6,7 @@
  *License-------GNU GPL-3.0
  ************************************************/
 
+#include "gfx/render.h"
 #include "state.h"
 #include "gfx/window.h"
 
@@ -18,8 +19,12 @@ void init(void) {
         positionsInit(&state.positions);
 }
 
+void update(void) {
+        renderUpdate(&state.renderer, state.window->size);
+}
+
 void render(void) {
-        renderUpdate(&state.renderer, &state.positions);
+        renderEntities(&state.renderer, &state.positions);
 }
 
 void destroy(void) {
@@ -28,7 +33,7 @@ void destroy(void) {
 }
 
 int main(void) {
-        createWindow(init, render, destroy);
+        createWindow(init, update, render, destroy);
         windowLoop();
 }
 

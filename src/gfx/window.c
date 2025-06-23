@@ -8,8 +8,6 @@
 
 #include "window.h"
 #include <stdio.h>
-#include "../state.h"
-#include "GLFW/glfw3.h"
 
 // Global Window
 struct Window window;
@@ -17,11 +15,10 @@ struct Window window;
 static void _sizeCallback(GLFWwindow *windowHandle, int width, int height) {
         window.size = (ivec2s){{width, height}};
         glViewport(0, 0, width, height);
-        cameraResize(&state.renderer.camera, window.size);
 }
 
 static void _mouseCallback(GLFWwindow *windowHandle, double xPos, double yPos) {
-        struct Camera *cam = &state.renderer.camera;
+        window.mousePos = (vec2s){{xPos, yPos}};
         const float sensitivity = 0.1f;
         static float lastX = 400;
         static float lastY = 300;
@@ -41,7 +38,6 @@ static void _mouseCallback(GLFWwindow *windowHandle, double xPos, double yPos) {
 
 static void _keyCallback(GLFWwindow *windowHandle, int key,
                 int scancode, int action, int mods) {
-        struct Camera *cam = &state.renderer.camera;
         const float cameraSpeed = 2.5f * window.deltaTime;
         if (action == GLFW_PRESS) {
                 if (key < (int)(sizeof(window.keysPressed)/
@@ -58,8 +54,9 @@ static void _keyCallback(GLFWwindow *windowHandle, int key,
         }
 }
 
-void createWindow(WinFunc init, WinFunc render, WinFunc destroy) {
+void createWindow(WinFunc init, WinFunc update, WinFunc render, WinFunc destroy) {
         window.init = init;
+        window.update = update;
         window.render = render;
         window.destroy = destroy;
 
@@ -135,6 +132,7 @@ void windowLoop(void) {
                 _printFPS();
 
                 // Rendering happens here
+                window.update();
                 window.render();
 
                 // Check and call events and swap buffers

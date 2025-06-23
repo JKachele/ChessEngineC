@@ -23,7 +23,8 @@ struct Renderer {
 };
 
 void renderInit(struct Renderer *self);
-void renderUpdate(struct Renderer *self, struct Positions *positions);
+void renderUpdate(struct Renderer *self, ivec2s windowSize);
+void renderEntities(struct Renderer *self, struct Positions *positions);
 void renderDestroy(struct Renderer *self);
 
 #endif

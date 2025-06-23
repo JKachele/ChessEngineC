@@ -19,20 +19,19 @@ void renderInit(struct Renderer *self) {
 
 void createTransformations(struct Renderer *self) {
         struct Camera *cam = &self->camera;
-        mat4s view = mat4_identity();
-        view = cam->getView(cam);
-
-        mat4s projection = mat4_identity();
-        projection = glms_ortho(cam->width.x, cam->width.y,
-                                cam->height.x, cam->height.y, 0.1f, 100.0f);
+        mat4s view = cam->getView(cam);
+        mat4s projection = cam->getProjection(cam);
         
         boardLoadTransforms(&self->board, view, projection);
         pieceLoadTransforms(&self->piece, view, projection);
 }
 
-void renderUpdate(struct Renderer *self, struct Positions *positions) {
+void renderUpdate(struct Renderer *self, ivec2s windowSize) {
+        cameraResize(&self->camera, windowSize);
         createTransformations(self);
+}
 
+void renderEntities(struct Renderer *self, struct Positions *positions) {
         renderBoard(&self->board);
         renderPieces(&self->piece, positions);
 }

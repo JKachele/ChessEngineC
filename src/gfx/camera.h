@@ -9,17 +9,16 @@
 #define CAMERA_H
 
 #include "gfx.h"
-#include "window.h"
 
 struct Camera {
         vec3s pos;
         vec3s front;
         vec3s up;
 
-        vec2s width;
-        vec2s height;
+        vec2s size;
 
         mat4s (*getView)(struct Camera *self);
+        mat4s (*getProjection)(struct Camera *self);
 };
 
 void cameraInit(struct Camera *self);
