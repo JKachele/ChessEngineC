@@ -8,7 +8,7 @@
 #ifndef POSITIONS_H
 #define POSITIONS_H
 
-#include <stdbool.h>
+#include "../gfx/gfx.h"
 
 enum PieceType {
         NONE = 0,
@@ -29,6 +29,9 @@ struct Positions {
         char fen[100];
         bool toMove; // White if true
         bool validCastle[4]; // KQkq
+        ivec2s enPassant;
+        int halfmoves;
+        int fullmoves;
 
         int board[8][8];
 };

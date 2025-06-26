@@ -22,6 +22,8 @@ struct Window {
 
         // Mouse
         vec2s mousePos;
+        bool mouseButtons[GLFW_MOUSE_BUTTON_LAST];
+        bool mouseButtonsOnce[GLFW_MOUSE_BUTTON_LAST];
 
         // Keys
         bool keysPressed[350];

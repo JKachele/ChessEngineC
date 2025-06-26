@@ -11,9 +11,11 @@
 #include "../gfx/gfx.h"
 #include "../gfx/texture.h"
 #include "../gfx/shader.h"
+#include "../game/positions.h"
+
 
 struct Cell {
-        int id;
+        ivec2s id;
 
         vec2s texOffset;
 
@@ -23,7 +25,7 @@ struct Cell {
 };
 
 struct Board {
-        struct Cell cells[64];
+        struct Cell cells[8][8];
         struct Texture oakTexture;
         struct Texture walnutTexture;
 
@@ -32,8 +34,10 @@ struct Board {
 
 void boardInit(struct Board *self);
 void boardLoadTransforms(struct Board *self, mat4s view, mat4s projection);
-void renderBoard(struct Board *self);
+void renderBoard(struct Board *self, ivec2s mousePos);
 void boardDelete(struct Board *self);
+
+extern const float CELL_SIZE;
 
 #endif
 

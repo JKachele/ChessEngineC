@@ -20,10 +20,12 @@ struct Renderer {
         struct Board board;
 
         struct Piece piece;
+
+        vec2s mousePos;
 };
 
 void renderInit(struct Renderer *self);
-void renderUpdate(struct Renderer *self, ivec2s windowSize);
+void renderUpdate(struct Renderer *self);
 void renderEntities(struct Renderer *self, struct Positions *positions);
 void renderDestroy(struct Renderer *self);
 

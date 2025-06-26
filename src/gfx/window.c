@@ -7,6 +7,7 @@
  ************************************************/
 
 #include "window.h"
+#include "GLFW/glfw3.h"
 #include <stdio.h>
 
 // Global Window
@@ -19,21 +20,25 @@ static void _sizeCallback(GLFWwindow *windowHandle, int width, int height) {
 
 static void _mouseCallback(GLFWwindow *windowHandle, double xPos, double yPos) {
         window.mousePos = (vec2s){{xPos, yPos}};
-        const float sensitivity = 0.1f;
-        static float lastX = 400;
-        static float lastY = 300;
-        static bool firstMouse = true;
+}
 
-        if (firstMouse) {
-                lastX = xPos;
-                lastY = yPos;
-                firstMouse = false;
+static void _mouseButtonCallback(GLFWwindow *windowHandle, int button,
+                                int action, int mods) {
+        if (button < 0)
+                return;
+
+        switch (action) {
+        case GLFW_PRESS:
+                window.mouseButtons[button] = true;
+                window.mouseButtonsOnce[button] = true;
+                break;
+        case GLFW_RELEASE:
+                window.mouseButtons[button] = false;
+                window.mouseButtonsOnce[button] = false;
+                break;
+        default:
+                break;
         }
-
-        float xOffset = (xPos - lastX) * sensitivity;
-        float yOffset = (lastY - yPos) * sensitivity;
-        lastX = xPos;
-        lastY = yPos;
 }
 
 static void _keyCallback(GLFWwindow *windowHandle, int key,
@@ -77,9 +82,10 @@ void createWindow(WinFunc init, WinFunc update, WinFunc render, WinFunc destroy)
         glfwMakeContextCurrent(window.handle);
         glfwSetFramebufferSizeCallback(window.handle, _sizeCallback);
         glfwSetCursorPosCallback(window.handle, _mouseCallback);
+        glfwSetMouseButtonCallback(window.handle, _mouseButtonCallback);
         glfwSetKeyCallback(window.handle, _keyCallback);
 
-        glfwSetInputMode(window.handle, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+        glfwSetInputMode(window.handle, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
 
         if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
                 fprintf(stderr, "Failed to initalize GLAD\n");

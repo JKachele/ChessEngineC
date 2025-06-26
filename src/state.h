@@ -9,6 +9,7 @@
 #define STATE_H
 
 #include "gfx/gfx.h"
+#include "gfx/window.h"
 #include "gfx/render.h"
 #include "game/positions.h"
 

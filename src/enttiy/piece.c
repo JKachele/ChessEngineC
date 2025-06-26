@@ -72,7 +72,8 @@ static void renderPiece(struct Piece *self, int id, int row, int col) {
         glBindVertexArray(self->vao);
 
         // Flip row from top-bottom to bottom-top;
-        row = 7 - row;
+        row = (7 - row) - 4;
+        col = col - 4;
         vec3s translate = {{(col * 8) + 0.5f, (row * 8), 0.0f}};
 
         mat4s model = mat4_identity();

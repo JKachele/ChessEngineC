@@ -11,11 +11,14 @@
 #include <string.h>
 
 void fen2Board(struct Positions *self) {
+        char *fen = self->fen;
+        int strIndex = 0;
+
+        // Get piece positions
         int row = 0;
         int col = 0;
-        int strIndex = 0;
-        while (strIndex < (int)strlen(self->fen)) {
-                char cur = self->fen[strIndex];
+        while (strIndex < (int)strlen(fen) && fen[strIndex] != ' ') {
+                char cur = fen[strIndex];
 
                 // If a slash, move down a row
                 if (cur == '/') {
@@ -79,25 +82,115 @@ void fen2Board(struct Positions *self) {
                 col++;
                 strIndex++;
         }
+        strIndex++;
+        if (strIndex >= (int)strlen(fen)) return;
+
+        // Get side to move
+        if (fen[strIndex] == 'w')
+                self->toMove = true;
+        else
+                self->toMove = false;
+        strIndex += 2;
+        if (strIndex >= (int)strlen(fen)) return;
+
+        // Get Castling ability
+        while (strIndex < (int)strlen(fen) && fen[strIndex] != ' ') {
+                switch (fen[strIndex]) {
+                case 'K':
+                        self->validCastle[0] = true;
+                        break;
+                case 'Q':
+                        self->validCastle[1] = true;
+                        break;
+                case 'k':
+                        self->validCastle[2] = true;
+                        break;
+                case 'q':
+                        self->validCastle[3] = true;
+                        break;
+                default:
+                        break;
+                }
+                strIndex++;
+        }
+        strIndex++;
+        if (strIndex >= (int)strlen(fen)) return;
+
+        // Get En passant
+        if (fen[strIndex] != '-') {
+                int row = fen[strIndex] - 'a';
+                strIndex++;
+                if (strIndex >= (int)strlen(fen)) return;
+                int col = fen[strIndex] - '0';
+                self->enPassant = (ivec2s){{row, col}};
+        }
+        strIndex++;
+        if (strIndex >= (int)strlen(fen)) return;
+
+        // Get Halfmoves
+        while (strIndex < (int)strlen(fen) && fen[strIndex] != ' ') {
+                int num = fen[strIndex] - '0';
+                self->halfmoves = (self->halfmoves * 10) + num;
+                strIndex++;
+        }
+        strIndex++;
+        if (strIndex >= (int)strlen(fen)) return;
+
+        // Get Fullmoves
+        while (strIndex < (int)strlen(fen) && fen[strIndex] != ' ') {
+                int num = fen[strIndex] - '0';
+                self->fullmoves = (self->fullmoves * 10) + num;
+                strIndex++;
+        }
 }
 
 void printBoard(struct Positions *self) {
         const char pieces[16] = "_pnbrqk__PNBRQK_";
+        printf("\n");
         for (int row = 0; row < 8; row++) {
                 for (int col = 0; col < 8; col++) {
                         printf("%c", pieces[self->board[row][col]]);
                 }
                 printf("\n");
         }
+        printf("\n");
+        printf("%s to move\n", self->toMove ? "White" : "Black");
+        printf("Valid Castles: ");
+        if (self->validCastle[0])
+                printf("K");
+        if (self->validCastle[1])
+                printf("Q");
+        if (self->validCastle[2])
+                printf("k");
+        if (self->validCastle[3])
+                printf("q");
+        printf("\n");
+
+        if (self->enPassant.x == -1)
+                printf("En passant: -\n");
+        else
+                printf("En passant: %c%d\n", (char)self->enPassant.x + 'a',
+                                self->enPassant.y);
+
+        printf("Halfmoves: %d\n", self->halfmoves);
+        printf("Fullmoves: %d\n", self->fullmoves);
 }
 
 void positionsInit(struct Positions *self) {
-        char *startFEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
-        strncpy(self->fen, startFEN, strlen(startFEN));
+        char *startFEN =
+                "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+        char *exFEN = 
+                "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2";
+        // strncpy(self->fen, startFEN, strlen(startFEN));
+        strncpy(self->fen, exFEN, strlen(exFEN));
 
         self->toMove = true;
         for (int i = 0; i < 4; i++)
-                self->validCastle[i] = true;
+                self->validCastle[i] = false;
+
+        self->enPassant = (ivec2s){{-1, -1}};
+        self->halfmoves = 0;
+        self->fullmoves = 0;
 
         for (int i = 0; i < 8; i++) {
                 for (int j = 0; j < 8; j++) {
@@ -105,6 +198,6 @@ void positionsInit(struct Positions *self) {
                 }
         }
         fen2Board(self);
-        // printBoard(self);
+        printBoard(self);
 }
 

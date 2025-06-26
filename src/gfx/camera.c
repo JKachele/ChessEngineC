@@ -31,7 +31,7 @@ static mat4s getProjection(struct Camera *self) {
 
 void cameraInit(struct Camera *self) {
         // self->pos = (vec3s){{0.0f, 0.0f, 3.0f}};
-        self->pos = (vec3s){{32.0f, 32.0f, 3.0f}};
+        self->pos = (vec3s){{0.0f, 0.0f, 3.0f}};
         self->front = (vec3s){{0.0f, 0.0f, -1.0f}};
         self->up = (vec3s){{0.0f, 1.0f, 0.0f}};
 

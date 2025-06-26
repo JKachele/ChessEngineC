@@ -8,8 +8,10 @@
 
 #include "board.h"
 
-static void _cellInit(struct Cell *self, int id) {
-        self->id = id;
+const float CELL_SIZE = 8;
+
+static void _cellInit(struct Cell *self, int idX, int idY) {
+        self->id = (ivec2s){{idX, idY}};
 
         // Rectangle
         float vertices[] = {
@@ -52,8 +54,10 @@ static void _cellInit(struct Cell *self, int id) {
 }
 
 void boardInit(struct Board *self) {
-        for (int i = 0; i < 64; i++) {
-                _cellInit(&self->cells[i], i);
+        for (int y = 0; y < 8; y++) {
+                for (int x = 0; x < 8; x++) {
+                        _cellInit(&self->cells[y][x], x, y);
+                }
         }
         loadTexture(&self->oakTexture, "oak.jpg", GL_RGB, false);
         loadTexture(&self->walnutTexture, "walnut.jpg", GL_RGB, false);
@@ -70,16 +74,18 @@ void boardLoadTransforms(struct Board *self, mat4s view, mat4s projection) {
 }
 
 static void _renderCell(struct Cell *self, struct Board *board,
-                GLuint shaderHandle) {
+                ivec2s mousePos) {
         glBindVertexArray(self->vao);
+        GLuint shaderHandle = board->shader.handle;
+        float brightenVal = 1.0f;
 
-        int xOffset = self->id % 8;
-        int yOffset = self->id / 8;
-        vec3s translate = {{xOffset * 8, yOffset * 8, 0.0f}};
+        int xOffset = self->id.x - 4;
+        int yOffset = self->id.y - 4;
+        vec3s translate = {{xOffset * CELL_SIZE, yOffset * CELL_SIZE, 0.0f}};
 
         mat4s model = mat4_identity();
         model = glms_translate(model, translate);
-        model = glms_scale(model, (vec3s){{8.0f, 8.0f, 1.0f}});
+        model = glms_scale(model, (vec3s){{CELL_SIZE, CELL_SIZE, 1.0f}});
 
         GLuint modelLoc = glGetUniformLocation(shaderHandle, "model");
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, (const GLfloat*)&model.raw);
@@ -87,28 +93,44 @@ static void _renderCell(struct Cell *self, struct Board *board,
         GLuint offsetLoc = glGetUniformLocation(shaderHandle, "texOffset");
         glUniform2fv(offsetLoc, 1, (const GLfloat*)self->texOffset.raw);
 
+        glUniform1i(glGetUniformLocation(shaderHandle, "tex"), 0);
         glActiveTexture(GL_TEXTURE0);
         if ((xOffset + yOffset) % 2 == 0) {
                 glBindTexture(GL_TEXTURE_2D, board->walnutTexture.handle);
+                brightenVal = 1.5f;
         } else {
                 glBindTexture(GL_TEXTURE_2D, board->oakTexture.handle);
+                brightenVal = 1.3f;
         }
+
+        vec3s color = vec3_one();
+        if (mousePos.x == self->id.x && mousePos.y == self->id.y) {
+                color = vec3_scale(color, brightenVal);
+        }
+        GLuint colorLoc = glGetUniformLocation(shaderHandle, "color");
+        glUniform3fv(colorLoc, 1, (const GLfloat*)color.raw);
 
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 }
 
-void renderBoard(struct Board *self) {
+void renderBoard(struct Board *self, ivec2s mousePos) {
         shaderUse(&self->shader);
-        for (int i = 0; i < 64; i++) {
-                _renderCell(&self->cells[i], self, self->shader.handle);
+        for (int y = 0; y < 8; y++) {
+                for (int x = 0; x < 8; x++) {
+                        _renderCell(&self->cells[y][x], self, mousePos);
+                }
         }
 }
 
 void boardDelete(struct Board *self) {
         for (int i = 0; i < 64; i++) {
-                glDeleteVertexArrays(1, &self->cells[i].vao);
-                glDeleteBuffers(1, &self->cells[i].vbo);
-                glDeleteBuffers(1, &self->cells[i].ebo);
+        }
+        for (int y = 0; y < 8; y++) {
+                for (int x = 0; x < 8; x++) {
+                        glDeleteVertexArrays(1, &self->cells[y][x].vao);
+                        glDeleteBuffers(1, &self->cells[y][x].vbo);
+                        glDeleteBuffers(1, &self->cells[y][x].ebo);
+                }
         }
 }
 

@@ -20,7 +20,7 @@ void init(void) {
 }
 
 void update(void) {
-        renderUpdate(&state.renderer, state.window->size);
+        renderUpdate(&state.renderer);
 }
 
 void render(void) {
